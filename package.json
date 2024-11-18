@@ -1,0 +1,24 @@
+{
+  "name": "wu-lang",
+  "version": "0.0.1",
+  "description": "Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaScript.",
+  "main": "wu-lang-plugin.js",
+  "author": "Shaolin Coders",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlolkema/Wu-Lang.git"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  },
+  "keywords": [
+    "esbuild",
+    "wu-tang",
+    "javascript",
+    "transpiler"
+  ]
+}
