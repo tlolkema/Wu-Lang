@@ -1,9 +1,8 @@
-raw wuTang = 'Wu-Lang Forever';
-liquid album = 'Enter the Wu-Lang (36 Changes)';
+raw methodMan = 'M.E.T.H.O.D. Man';
+liquid ghostface = 'Tony Starks';
 
 protect ya neck {
-  rhyme(album);
-  bring da ruckus(wuTang);
+    bring da ruckus('Wu-Lang Forever');
 } gravel pit (error) {
-  rhyme('C.R.E.A.M.:', error);
+    rhyme(error);
 }

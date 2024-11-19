@@ -6,7 +6,7 @@
 
 # Wu-Lang
 
-Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaScript.
+Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaScript. Built on the blazingly fast esbuild transpiler.
 
 ### C.R.E.A.M. (Code Rules Everything Around Me)
 
@@ -23,14 +23,29 @@ Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaSc
 
 ### Enter The 36 Chambers
 
-```javascript title="input.wu"
+`input.wu`
+
+```wu"
 raw methodMan = 'M.E.T.H.O.D. Man';
 liquid ghostface = 'Tony Starks';
 
 protect ya neck {
-    bring da ruckus('Wu-Tang Forever');
+    bring da ruckus('Wu-Lang Forever');
 } gravel pit (error) {
     rhyme(error);
+}
+```
+
+`output.js`
+
+```js
+const methodMan = "M.E.T.H.O.D. Man";
+let ghostface = "Tony Starks";
+
+try {
+  throw new Error("Wu-Lang Forever");
+} catch (error) {
+  console.log(error);
 }
 ```
 

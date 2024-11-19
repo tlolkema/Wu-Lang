@@ -1,6 +1,6 @@
 {
   "name": "wu-lang",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaScript.",
   "main": "wu-lang-plugin.js",
   "author": "Shaolin Coders",
