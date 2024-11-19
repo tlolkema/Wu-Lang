@@ -65,6 +65,8 @@ raw methodman = () => {
         bring da ruckus('Wu-Lang Forever');
     } gravel pit (error) {
         rhyme(error);
+    } shimmy shimmy ya {
+        rhyme('Wu-Tang is for the children!') 
     }
 }
 

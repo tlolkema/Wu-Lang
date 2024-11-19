@@ -4,6 +4,7 @@ const transformWuLang = (code) => {
   const transformations = {
     "protect ya neck": "try",
     "gravel pit": "catch",
+    "shimmy shimmy ya": "finally",
     bring: "throw",
     da: "new",
     ruckus: "Error",
