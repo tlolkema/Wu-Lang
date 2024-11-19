@@ -1,8 +1,11 @@
-raw methodMan = 'M.E.T.H.O.D. Man';
 liquid ghostface = 'Tony Starks';
 
-protect ya neck {
-    bring da ruckus('Wu-Lang Forever');
-} gravel pit (error) {
-    rhyme(error);
+raw methodman = () => {
+    protect ya neck {
+        bring da ruckus('Wu-Lang Forever');
+    } gravel pit (error) {
+        rhyme(error);
+    }
 }
+
+methodman();
