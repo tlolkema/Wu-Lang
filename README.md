@@ -42,16 +42,17 @@ Built on the blazingly fast esbuild transpiler.
 
 ### C.R.E.A.M. (Code Rules Everything Around Me)
 
-| Wu-Lang           | JavaScript    |
-| ----------------- | ------------- |
-| `protect ya neck` | `try`         |
-| `gravel pit`      | `catch`       |
-| `bring`           | `throw`       |
-| `da`              | `new`         |
-| `ruckus`          | `Error`       |
-| `raw`             | `const`       |
-| `liquid`          | `let`         |
-| `rhyme`           | `console.log` |
+| Wu-Lang            | JavaScript    |
+| ------------------ | ------------- |
+| `protect ya neck`  | `try`         |
+| `gravel pit`       | `catch`       |
+| `shimmy shimmy ya` | `finally`     |
+| `bring`            | `throw`       |
+| `da`               | `new`         |
+| `ruckus`           | `Error`       |
+| `raw`              | `const`       |
+| `liquid`           | `let`         |
+| `rhyme`            | `console.log` |
 
 ### Enter The 36 Chambers
 
@@ -66,7 +67,7 @@ raw methodman = () => {
     } gravel pit (error) {
         rhyme(error);
     } shimmy shimmy ya {
-        rhyme('Wu-Tang is for the children!') 
+        rhyme('Wu-Lang is for the children!')
     }
 }
 
@@ -83,6 +84,8 @@ const methodman = () => {
     throw new Error("Wu-Lang Forever");
   } catch (error) {
     console.log(error);
+  } finally {
+    console.log("Wu-Lang is for the children!");
   }
 };
 
