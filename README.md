@@ -42,17 +42,20 @@ Built on the blazingly fast esbuild transpiler.
 
 ### C.R.E.A.M. (Code Rules Everything Around Me)
 
-| Wu-Lang            | JavaScript    |
-| ------------------ | ------------- |
-| `protect ya neck`  | `try`         |
-| `gravel pit`       | `catch`       |
-| `shimmy shimmy ya` | `finally`     |
-| `bring`            | `throw`       |
-| `da`               | `new`         |
-| `ruckus`           | `Error`       |
-| `raw`              | `const`       |
-| `liquid`           | `let`         |
-| `rhyme`            | `console.log` |
+| Wu-Lang            | JavaScript      |
+| ------------------ | --------------- |
+| `protect ya neck`  | `try`           |
+| `gravel pit`       | `catch`         |
+| `shimmy shimmy ya` | `finally`       |
+| `bring`            | `throw`         |
+| `da`               | `new`           |
+| `ruckus`           | `Error`         |
+| `raw`              | `const`         |
+| `liquid`           | `let`           |
+| `spit.fire`        | `console.error` |
+| `spit.rhyme`       | `console.log`   |
+| `spit.venom`       | `console.warn`  |
+| `spit.wisdom`      | `console.info`  |
 
 ### Enter The 36 Chambers
 
