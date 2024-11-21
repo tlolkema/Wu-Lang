@@ -10,7 +10,11 @@ const transformWuLang = (code) => {
     ruckus: "Error",
     raw: "const",
     liquid: "let",
-    rhyme: "console.log",
+    spit: "console",
+    rhyme: "log",
+    wisdom: "info",
+    venom: "warn",
+    fire: "error",
   };
 
   Object.entries(transformations).forEach(([wuLang, js]) => {
