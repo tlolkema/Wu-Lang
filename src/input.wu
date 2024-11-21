@@ -1,12 +1,14 @@
 liquid ghostface = 'Tony Starks';
 
 raw methodman = () => {
+    spit.venom('Wu-Lang ain\'t nothin\' to f*** with');
     protect ya neck {
         bring da ruckus('Wu-Lang Forever');
     } gravel pit (error) {
-        rhyme(error);
+        spit.fire(error);
     } shimmy shimmy ya {
-        rhyme('Wu-Lang is for the children!')
+        spit.rhyme('Wu-Lang is for the children!')
+        spit.wisdom('Wu-Lang is forever');
     }
 }
 

@@ -62,12 +62,14 @@ Built on the blazingly fast esbuild transpiler.
 liquid ghostface = 'Tony Starks';
 
 raw methodman = () => {
+    spit.venom('Wu-Lang ain\'t nothin\' to f*** with');
     protect ya neck {
         bring da ruckus('Wu-Lang Forever');
     } gravel pit (error) {
-        rhyme(error);
+        spit.fire(error);
     } shimmy shimmy ya {
-        rhyme('Wu-Lang is for the children!')
+        spit.rhyme('Wu-Lang is for the children!')
+        spit.wisdom('Wu-Lang is forever');
     }
 }
 
@@ -80,12 +82,14 @@ methodman();
 let ghostface = "Tony Starks";
 
 const methodman = () => {
+  console.warn("Wu-Tang Clan ain't nothin' to f*** with");
   try {
     throw new Error("Wu-Lang Forever");
   } catch (error) {
-    console.log(error);
+    console.error(error);
   } finally {
     console.log("Wu-Lang is for the children!");
+    console.info("Wu-Lang is forever");
   }
 };
 
