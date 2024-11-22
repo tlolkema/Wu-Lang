@@ -99,6 +99,12 @@ const methodman = () => {
 methodman();
 ```
 
+### Torch Them Fatties
+
+If you want to previews syntax highlighting for `.wu` files and you happen to be in VS Code, press <kbd>F5</kbd> to run the debugger, create a new file and select the `.wu` language. Start dropping in that Wu-Lang code and watch **them fatties torch**.
+
+Soon the **Wu-Lang Syntax Highlighting** extension will be available.
+
 ### Join The Clan
 
 If you're looking to bring da ruckus to Wu-Lang, you've come to the right place. We ain't nuthing ta f' wit, but we welcome all soldiers and killer bees to join our Wu-Tang sword style.

@@ -1,0 +1,140 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Wu-Lang",
+  "patterns": [
+    {
+      "include": "#classes"
+    },
+    {
+      "include": "#console-function"
+    },
+    {
+      "include": "#functions"
+    },
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#objects"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#storage"
+    }
+  ],
+  "repository": {
+    "classes": {
+      "patterns": [
+        {
+          "name": "entity.name.class.wu",
+          "match": "\\b([A-Z][\\w$]*)\\b"
+        }
+      ]
+    },
+    "console-function": {
+      "name": "meta.function.console.wu",
+      "match": "\\b(spit)\\s*(\\.)\\s*(rhyme|venom|fire|wisdom|debug|assert|count|dir|dirxml|trace|group|groupEnd|time|timeEnd|profile|profileEnd|table)\\b",
+      "captures": {
+        "1": {
+          "name": "variable.other.object.wu"
+        },
+        "2": {
+          "name": "punctuation.accessor.wu"
+        },
+        "3": {
+          "name": "entity.name.function.wu"
+        }
+      }
+    },
+    "functions": {
+      "patterns": [
+        {
+          "name": "entity.name.function.wu",
+          "match": "\\b([a-zA-Z_$][\\w$]*)\\s*\\("
+        }
+      ]
+    },
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.wu",
+          "match": "\\b(if|else|while|for|return|in|of|do|switch|case|default|break|continue|protect ya neck|gravel pit|shimmy shimmy ya|bring)\\b"
+        },
+        {
+          "name": "keyword.operator.js",
+          "match": "\\b(da|delete|typeof|instanceof|void)\\b"
+        }
+      ]
+    },
+    "objects": {
+      "patterns": [
+        {
+          "name": "variable.other.object.wu",
+          "match": "\\b([a-zA-Z_$][\\w$]*)\\s*\\."
+        }
+      ]
+    },
+    "strings": {
+      "patterns": [
+        {
+          "name": "string.quoted.double.wu",
+          "begin": "\"",
+          "end": "\"",
+          "patterns": [
+            {
+              "name": "constant.character.escape.wu",
+              "match": "\\\\."
+            }
+          ]
+        },
+        {
+          "name": "string.quoted.single.wu",
+          "begin": "'",
+          "end": "'",
+          "patterns": [
+            {
+              "name": "constant.character.escape.wu",
+              "match": "\\\\."
+            }
+          ]
+        },
+        {
+          "name": "string.template.js",
+          "begin": "`",
+          "end": "`",
+          "patterns": [
+            {
+              "name": "constant.character.escape.js",
+              "match": "\\\\."
+            },
+            {
+              "name": "entity.other.template-expression.js",
+              "begin": "\\${",
+              "end": "}",
+              "patterns": [
+                {
+                  "include": "$self"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "storage": {
+      "patterns": [
+        {
+          "name": "storage.type.wu",
+          "match": "\\b(var|liquid|raw)\\b"
+        },
+        {
+          "name": "storage.modifier.wu",
+          "match": "\\b(static|public|private|protected|readonly)\\b"
+        }
+      ]
+    }
+  },
+  "scopeName": "source.wu"
+}

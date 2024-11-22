@@ -2,14 +2,19 @@ const fs = require("fs").promises;
 
 const transformWuLang = (code) => {
   const transformations = {
+    // keyword controls
     "protect ya neck": "try",
     "gravel pit": "catch",
     "shimmy shimmy ya": "finally",
     bring: "throw",
+    // keyword operators
     da: "new",
-    ruckus: "Error",
+    //
+    Ruckus: "Error",
+    // storage types
     raw: "const",
     liquid: "let",
+    // support functions
     spit: "console",
     rhyme: "log",
     wisdom: "info",

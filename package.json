@@ -4,21 +4,46 @@
   "description": "Straight from Shaolin, this esbuild plugin flips Wu-Tang slang into legit JavaScript.",
   "main": "wulang-plugin.js",
   "author": "Shaolin Coders",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tlolkema/Wu-Lang.git"
-  },
-  "scripts": {
-    "build": "node build.js"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "esbuild": "0.24.0"
-  },
   "keywords": [
     "esbuild",
     "wu-tang",
     "javascript",
     "transpiler"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tlolkema/Wu-Lang.git"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "wu",
+        "aliases": [
+          "Wu-Lang",
+          "wu"
+        ],
+        "extensions": [
+          "wu"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "wu",
+        "scopeName": "source.wu",
+        "path": "./syntaxes/wu.tmLanguage.json"
+      }
+    ]
+  },
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  }
 }
